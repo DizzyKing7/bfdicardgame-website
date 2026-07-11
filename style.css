@@ -12,10 +12,11 @@
 }
 .headered-header {
     font-size: 1.5rem;
+    margin-inline-start: 1rem;
 }
 .actual-thing {
     margin-inline-start: 2rem;
 }
 .indented-thing {
-    margin-inline-start: 2rem;
+    margin-inline-start: 3rem;
 }

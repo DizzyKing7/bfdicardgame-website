@@ -1,3 +1,9 @@
+:root {
+    --light-color: rgb(150 183 95);
+    --dark-color: rgb(112 100 157);
+    --alt-dark-color: rgb(0 0 0);
+    --alt-light-color: rgb(205 135 141);
+}
 @font-face {
     font-family: ShagExpert;
     src: url(https://codehs.com/uploads/5a8a2b4781e7a905cd15df8a6526f629);
@@ -5,19 +11,61 @@
 .title-website {
     font-family: "ShagExpert";
     font-size: 4rem;
+    color: var(--alt-light-color);
+    -webkit-text-stroke: 1px var(--alt-dark-color);
     text-align: center;
 }
 .header {
     font-size: 2rem;
     font-family: "ShagExpert";
+
 }
 .headered-header {
     font-size: 1.5rem;
     margin-inline-start: 1rem;
+    font-family: "Overpass Mono", sans-serif;
+    font-weight: 600;
 }
 .actual-thing {
     margin-inline-start: 2rem;
+    font-family: "Overpass Mono", sans-serif;
+    font-weight: 400;
 }
 .indented-thing {
     margin-inline-start: 3rem;
+    font-family: "Overpass Mono", sans-serif;
+    font-weight: 400;
+}
+summary::marker {
+    content: "";
+}
+.real-main {
+    display: flex;
+}
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--dark-color);
+    width: 100px; 
+    height: 100vh;
+}
+.navbar {
+    height: 100vh;
+    position: fixed;
+}
+.navbar a {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    display: block;
+    padding: 15px 10px;
+    font-family: "Overpass Mono", sans-serif;
+}
+.full-page {
+    flex: 1;
+    padding: 20px;
+}
+body {
+    background-color: var(--light-color);
+    margin: 0;
 }

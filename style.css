@@ -2,8 +2,11 @@
     font-family: ShagExpert;
     src: url(https://codehs.com/uploads/5a8a2b4781e7a905cd15df8a6526f629);
 }
-body {
+title {
     font-family: "ShagExpert";
     font-size: 4rem;
     text-align: center;
+}
+header {
+    font-size: 2rem;
 }

@@ -8,6 +8,14 @@
     font-family: ShagExpert;
     src: url(https://codehs.com/uploads/5a8a2b4781e7a905cd15df8a6526f629);
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        --light-color: rgb(112 100 157);
+        --dark-color: rgb(150 183 95);
+        --alt-dark-color: rgb(205 135 141);
+        --alt-light-color: rgb(0 0 0);
+    }
+}
 .title-website {
     font-family: "ShagExpert";
     font-size: 4rem;
